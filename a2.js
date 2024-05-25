@@ -89,7 +89,7 @@ function seniorsWithAssignments(students) {
 }
 const seniors = seniorsWithAssignments(students);
 console.log('\n', seniors);
-console.log('\nThis approach helps us to look after the progress of hardworking students\naccept for the lazy ones and keep an eye on whose up to date so that we can award the hard working ones.');
+console.log('\nThis approach helps us to look after the progress of hardworking students\neccept for the lazy ones and keep an eye on whose up to date so that we can award the hard working ones.');
 // 4.
 function classListUpdate(students) {
     return students.filter(i => i.assignmentsCompleted);
